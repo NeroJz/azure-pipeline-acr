@@ -16,7 +16,7 @@ to the Azure Container Registry (ACN)
 2. Configure the Azure DevOps Project. Refer the official [docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/acr-template?view=azure-devops&viewFallbackFrom=tfs-2018)
 
 ## Expected Result
-Once the Azure Pipeline was successfully configured, any changes/update on the Github repository will automatically trigger the build.
+Once the Azure Pipeline was successfully configured, any changes/update on the Master branch will trigger the build process of Azure Pipeline.
 
 ![Build Job](./screens/acn_01.PNG)
 
