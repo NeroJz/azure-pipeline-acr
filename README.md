@@ -11,4 +11,15 @@ to the Azure Container Registry (ACN)
 3. Create an Azure Free Account
 3. Create an account from [Azure Devops](https://go.microsoft.com/fwlink/?LinkId=307137)
 
-## Output
+## Instruction
+1. Fork the repository
+2. Configure the Azure DevOps Project. Refer the official [docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/acr-template?view=azure-devops&viewFallbackFrom=tfs-2018)
+
+## Expected Result
+Once the Azure Pipeline was successfully configured, any changes/update on the Github repository will automatically trigger the build.
+
+![Build Job](./screens/acn_01.PNG)
+
+The image will also upload to the container registry after job was successfully run.
+
+![Azure Container Registry](./screens/acn_02.PNG)
