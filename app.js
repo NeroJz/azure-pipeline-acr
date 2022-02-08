@@ -10,6 +10,9 @@ app.get('/page', (req, res) => {
   res.send('Page 2!');
 });
 
+app.get('/hello', (req, res) => {
+  res.send('Page 2!');
+});
 
 app.listen(port, () => {
   console.log(`App listen to PORT: ${port}`);
