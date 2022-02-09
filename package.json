@@ -9,6 +9,9 @@
   },
   "keywords": [],
   "author": "",
+  "publishConfig": {
+    "registry": "https://alm.accenture.com/nexus/repository/Newspage_Replatform_npm_Release/"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2"
